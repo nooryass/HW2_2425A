@@ -4,5 +4,6 @@
 CMakeFiles/dry.dir/Pirate.cpp.obj: ../Pirate.cpp
 CMakeFiles/dry.dir/Pirate.cpp.obj: ../Pirate.h
 
+CMakeFiles/dry.dir/main.cpp.obj: ../Pirate.h
 CMakeFiles/dry.dir/main.cpp.obj: ../main.cpp
 

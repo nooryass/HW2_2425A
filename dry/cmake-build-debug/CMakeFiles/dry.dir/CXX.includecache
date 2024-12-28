@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/dry/Pirate.cpp
-Pirate.h
-C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/dry/Pirate.h
-
 C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/dry/Pirate.h
 iostream
+-
+
+C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/dry/main.cpp
+iostream
+-
+Pirate.h
+C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/dry/Pirate.h
+cstring
 -
 
