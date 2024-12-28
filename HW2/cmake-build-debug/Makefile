@@ -169,32 +169,32 @@ Dry/Pirate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Dry/Pirate.cpp.s
 .PHONY : Dry/Pirate.cpp.s
 
-Dry/main.obj: Dry/main.cpp.obj
+Wet/MataMvidia.obj: Wet/MataMvidia.cpp.obj
 
-.PHONY : Dry/main.obj
+.PHONY : Wet/MataMvidia.obj
 
 # target to build an object file
-Dry/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Dry/main.cpp.obj
-.PHONY : Dry/main.cpp.obj
+Wet/MataMvidia.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.obj
+.PHONY : Wet/MataMvidia.cpp.obj
 
-Dry/main.i: Dry/main.cpp.i
+Wet/MataMvidia.i: Wet/MataMvidia.cpp.i
 
-.PHONY : Dry/main.i
+.PHONY : Wet/MataMvidia.i
 
 # target to preprocess a source file
-Dry/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Dry/main.cpp.i
-.PHONY : Dry/main.cpp.i
+Wet/MataMvidia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.i
+.PHONY : Wet/MataMvidia.cpp.i
 
-Dry/main.s: Dry/main.cpp.s
+Wet/MataMvidia.s: Wet/MataMvidia.cpp.s
 
-.PHONY : Dry/main.s
+.PHONY : Wet/MataMvidia.s
 
 # target to generate assembly for a file
-Dry/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Dry/main.cpp.s
-.PHONY : Dry/main.cpp.s
+Wet/MataMvidia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.s
+.PHONY : Wet/MataMvidia.cpp.s
 
 Wet/Matrix.obj: Wet/Matrix.cpp.obj
 
@@ -250,6 +250,33 @@ Wet/Utilities.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Wet/Utilities.cpp.s
 .PHONY : Wet/Utilities.cpp.s
 
+Wet/tests.obj: Wet/tests.cpp.obj
+
+.PHONY : Wet/tests.obj
+
+# target to build an object file
+Wet/tests.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Wet/tests.cpp.obj
+.PHONY : Wet/tests.cpp.obj
+
+Wet/tests.i: Wet/tests.cpp.i
+
+.PHONY : Wet/tests.i
+
+# target to preprocess a source file
+Wet/tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Wet/tests.cpp.i
+.PHONY : Wet/tests.cpp.i
+
+Wet/tests.s: Wet/tests.cpp.s
+
+.PHONY : Wet/tests.s
+
+# target to generate assembly for a file
+Wet/tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW2.dir\build.make CMakeFiles/HW2.dir/Wet/tests.cpp.s
+.PHONY : Wet/tests.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -262,15 +289,18 @@ help:
 	@echo ... Dry/Pirate.obj
 	@echo ... Dry/Pirate.i
 	@echo ... Dry/Pirate.s
-	@echo ... Dry/main.obj
-	@echo ... Dry/main.i
-	@echo ... Dry/main.s
+	@echo ... Wet/MataMvidia.obj
+	@echo ... Wet/MataMvidia.i
+	@echo ... Wet/MataMvidia.s
 	@echo ... Wet/Matrix.obj
 	@echo ... Wet/Matrix.i
 	@echo ... Wet/Matrix.s
 	@echo ... Wet/Utilities.obj
 	@echo ... Wet/Utilities.i
 	@echo ... Wet/Utilities.s
+	@echo ... Wet/tests.obj
+	@echo ... Wet/tests.i
+	@echo ... Wet/tests.s
 .PHONY : help
 
 

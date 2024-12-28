@@ -6,11 +6,33 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/Utilities.cpp
+C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/MataMvidia.h
+Matrix.h
+C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/Matrix.h
 Utilities.h
 C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/Utilities.h
+string
+-
 iostream
 -
+ostream
+-
+
+C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/Matrix.h
+iostream
+-
+Utilities.h
+C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/Utilities.h
 
 C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/Utilities.h
+
+C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/tests.cpp
+string
+-
+iostream
+-
+Matrix.h
+C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/Matrix.h
+MataMvidia.h
+C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/MataMvidia.h
 

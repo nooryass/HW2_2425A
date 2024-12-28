@@ -76,22 +76,35 @@ include CMakeFiles/HW2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HW2.dir/flags.make
 
-CMakeFiles/HW2.dir/Dry/main.cpp.obj: CMakeFiles/HW2.dir/flags.make
-CMakeFiles/HW2.dir/Dry/main.cpp.obj: ../Dry/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HW2.dir/Dry/main.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HW2.dir\Dry\main.cpp.obj -c "C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\Dry\main.cpp"
+CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.obj: CMakeFiles/HW2.dir/flags.make
+CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.obj: ../Wet/MataMvidia.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HW2.dir\Wet\MataMvidia.cpp.obj -c "C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\Wet\MataMvidia.cpp"
 
-CMakeFiles/HW2.dir/Dry/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW2.dir/Dry/main.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\Dry\main.cpp" > CMakeFiles\HW2.dir\Dry\main.cpp.i
+CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\Wet\MataMvidia.cpp" > CMakeFiles\HW2.dir\Wet\MataMvidia.cpp.i
 
-CMakeFiles/HW2.dir/Dry/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW2.dir/Dry/main.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\Dry\main.cpp" -o CMakeFiles\HW2.dir\Dry\main.cpp.s
+CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\Wet\MataMvidia.cpp" -o CMakeFiles\HW2.dir\Wet\MataMvidia.cpp.s
+
+CMakeFiles/HW2.dir/Wet/tests.cpp.obj: CMakeFiles/HW2.dir/flags.make
+CMakeFiles/HW2.dir/Wet/tests.cpp.obj: ../Wet/tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HW2.dir/Wet/tests.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HW2.dir\Wet\tests.cpp.obj -c "C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\Wet\tests.cpp"
+
+CMakeFiles/HW2.dir/Wet/tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW2.dir/Wet/tests.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\Wet\tests.cpp" > CMakeFiles\HW2.dir\Wet\tests.cpp.i
+
+CMakeFiles/HW2.dir/Wet/tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW2.dir/Wet/tests.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\Wet\tests.cpp" -o CMakeFiles\HW2.dir\Wet\tests.cpp.s
 
 CMakeFiles/HW2.dir/Dry/Pirate.cpp.obj: CMakeFiles/HW2.dir/flags.make
 CMakeFiles/HW2.dir/Dry/Pirate.cpp.obj: ../Dry/Pirate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HW2.dir/Dry/Pirate.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HW2.dir/Dry/Pirate.cpp.obj"
 	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HW2.dir\Dry\Pirate.cpp.obj -c "C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\Dry\Pirate.cpp"
 
 CMakeFiles/HW2.dir/Dry/Pirate.cpp.i: cmake_force
@@ -104,7 +117,7 @@ CMakeFiles/HW2.dir/Dry/Pirate.cpp.s: cmake_force
 
 CMakeFiles/HW2.dir/Wet/Matrix.cpp.obj: CMakeFiles/HW2.dir/flags.make
 CMakeFiles/HW2.dir/Wet/Matrix.cpp.obj: ../Wet/Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HW2.dir/Wet/Matrix.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HW2.dir/Wet/Matrix.cpp.obj"
 	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HW2.dir\Wet\Matrix.cpp.obj -c "C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\Wet\Matrix.cpp"
 
 CMakeFiles/HW2.dir/Wet/Matrix.cpp.i: cmake_force
@@ -117,7 +130,7 @@ CMakeFiles/HW2.dir/Wet/Matrix.cpp.s: cmake_force
 
 CMakeFiles/HW2.dir/Wet/Utilities.cpp.obj: CMakeFiles/HW2.dir/flags.make
 CMakeFiles/HW2.dir/Wet/Utilities.cpp.obj: ../Wet/Utilities.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HW2.dir/Wet/Utilities.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HW2.dir/Wet/Utilities.cpp.obj"
 	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HW2.dir\Wet\Utilities.cpp.obj -c "C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\Wet\Utilities.cpp"
 
 CMakeFiles/HW2.dir/Wet/Utilities.cpp.i: cmake_force
@@ -130,7 +143,8 @@ CMakeFiles/HW2.dir/Wet/Utilities.cpp.s: cmake_force
 
 # Object files for target HW2
 HW2_OBJECTS = \
-"CMakeFiles/HW2.dir/Dry/main.cpp.obj" \
+"CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.obj" \
+"CMakeFiles/HW2.dir/Wet/tests.cpp.obj" \
 "CMakeFiles/HW2.dir/Dry/Pirate.cpp.obj" \
 "CMakeFiles/HW2.dir/Wet/Matrix.cpp.obj" \
 "CMakeFiles/HW2.dir/Wet/Utilities.cpp.obj"
@@ -138,7 +152,8 @@ HW2_OBJECTS = \
 # External object files for target HW2
 HW2_EXTERNAL_OBJECTS =
 
-HW2.exe: CMakeFiles/HW2.dir/Dry/main.cpp.obj
+HW2.exe: CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.obj
+HW2.exe: CMakeFiles/HW2.dir/Wet/tests.cpp.obj
 HW2.exe: CMakeFiles/HW2.dir/Dry/Pirate.cpp.obj
 HW2.exe: CMakeFiles/HW2.dir/Wet/Matrix.cpp.obj
 HW2.exe: CMakeFiles/HW2.dir/Wet/Utilities.cpp.obj
@@ -146,7 +161,7 @@ HW2.exe: CMakeFiles/HW2.dir/build.make
 HW2.exe: CMakeFiles/HW2.dir/linklibs.rsp
 HW2.exe: CMakeFiles/HW2.dir/objects1.rsp
 HW2.exe: CMakeFiles/HW2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable HW2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\m7mds\OneDrive - Technion\Documents\GitHub\HW2_2425A\HW2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable HW2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\HW2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

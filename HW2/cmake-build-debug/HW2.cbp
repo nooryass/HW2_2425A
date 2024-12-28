@@ -88,7 +88,10 @@
 		<Unit filename="C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Dry/Pirate.h">
 			<Option target="HW2"/>
 		</Unit>
-		<Unit filename="C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Dry/main.cpp">
+		<Unit filename="C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/MataMvidia.cpp">
+			<Option target="HW2"/>
+		</Unit>
+		<Unit filename="C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/MataMvidia.h">
 			<Option target="HW2"/>
 		</Unit>
 		<Unit filename="C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/Matrix.cpp">
@@ -101,6 +104,9 @@
 			<Option target="HW2"/>
 		</Unit>
 		<Unit filename="C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/Utilities.h">
+			<Option target="HW2"/>
+		</Unit>
+		<Unit filename="C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/Wet/tests.cpp">
 			<Option target="HW2"/>
 		</Unit>
 		<Unit filename="C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/HW2/CMakeLists.txt">

@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HW2.dir/Dry/Pirate.cpp.obj"
-  "CMakeFiles/HW2.dir/Dry/main.cpp.obj"
+  "CMakeFiles/HW2.dir/Wet/MataMvidia.cpp.obj"
   "CMakeFiles/HW2.dir/Wet/Matrix.cpp.obj"
   "CMakeFiles/HW2.dir/Wet/Utilities.cpp.obj"
+  "CMakeFiles/HW2.dir/Wet/tests.cpp.obj"
   "HW2.exe"
   "HW2.exe.manifest"
   "HW2.pdb"
