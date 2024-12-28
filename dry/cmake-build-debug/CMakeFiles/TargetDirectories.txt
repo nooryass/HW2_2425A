@@ -1,3 +1,0 @@
-C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/dry/cmake-build-debug/CMakeFiles/dry.dir
-C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/dry/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/m7mds/OneDrive - Technion/Documents/GitHub/HW2_2425A/dry/cmake-build-debug/CMakeFiles/rebuild_cache.dir
