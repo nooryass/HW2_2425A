@@ -92,8 +92,8 @@ MataMvidia& MataMvidia::operator+=(const Matrix& additionalFrame) {
 
 // Prints Movie Details
 std::ostream& operator<<(std::ostream& outputStream, const MataMvidia& movie) {
-    outputStream << "Movie Title: " << movie.movieName << std::endl;
-    outputStream << "Creator: " << movie.authorName << std::endl;
+    outputStream << "Movie Name: " << movie.movieName << std::endl;
+    outputStream << "Author: " << movie.authorName << std::endl;
 
     for (int frameIndex = 0; frameIndex < movie.movieLength; ++frameIndex) {
         outputStream << std::endl;
