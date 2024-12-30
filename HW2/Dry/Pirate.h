@@ -1,10 +1,9 @@
-
 #pragma once
 
 #include <iostream>
-
 using std::string;
 
+// Enum for Devil Fruits
 enum DEVIL_FRUIT {
     GUM_GUM_FRUIT,
     SMOKE_SMOKE_FRUIT,
@@ -19,25 +18,24 @@ class Pirate {
 private:
     string name;
     int bounty;
-
-
-public:
-
-    Pirate() = default;
     DEVIL_FRUIT devilFruit;
 
 public:
-    Pirate(const string& name,int bouty, DEVIL_FRUIT devilFruit = DEVIL_FRUIT::NONE);
-
+    // Constructors and Destructor
+    Pirate(); // Default constructor
+    Pirate(const string& name, int bounty, DEVIL_FRUIT devilFruit = DEVIL_FRUIT::NONE);
     ~Pirate() = default;
 
-    void setName(const string& name);
-    void setDevilFruit(DEVIL_FRUIT devilFruit);
-
+    // Getters
     string getName();
-    void setBounty(int bounty);
+    int getBounty() const;
     DEVIL_FRUIT getDevilFruit();
 
-    int getBounty() const;
+    // Setters
+    void setName(const string& name);
+    void setBounty(int bounty);
+    void setDevilFruit(DEVIL_FRUIT devilFruit);
+
+    // Operator Overload
     friend std::ostream &operator<<(std::ostream &os, const Pirate &pirate);
 };

@@ -2,6 +2,7 @@
 #include "Utilities.h"
 #include <cmath>
 
+// Constructors and Destructor
 Matrix::Matrix() : length(0), width(0), data(nullptr) {}
 
 Matrix::Matrix(int numRows, int numCols) : length(numRows), width(numCols) {
@@ -39,6 +40,7 @@ Matrix::~Matrix() {
     delete[] data;
 }
 
+// Assignment Operator
 Matrix& Matrix::operator=(const Matrix& sourceMatrix) {
     if (this == &sourceMatrix) {
         return *this;
@@ -54,6 +56,7 @@ Matrix& Matrix::operator=(const Matrix& sourceMatrix) {
     return *this;
 }
 
+// Element Access Operators
 int& Matrix::operator()(int rowIndex, int colIndex) {
     if (rowIndex < 0 || rowIndex >= length || colIndex < 0 || colIndex >= width) {
         exitWithError(MatamErrorType::OutOfBounds);
@@ -68,6 +71,7 @@ const int& Matrix::operator()(int rowIndex, int colIndex) const {
     return data[width * rowIndex + colIndex];
 }
 
+// Arithmetic Operators
 Matrix& Matrix::operator+=(const Matrix& otherMatrix) {
     if (otherMatrix.length != length || otherMatrix.width != width) {
         exitWithError(MatamErrorType::UnmatchedSizes);
@@ -105,16 +109,19 @@ Matrix& Matrix::operator*=(int scalarValue) {
     return *this;
 }
 
+// Unary Operators
 Matrix Matrix::operator-() const {
     return *this * -1;
 }
 
+// Transformations
 Matrix Matrix::rotateClockwise() const {
     Matrix turned_matrix_clockwise(width, length);
-    for (int j = 0; j < width; j++)
+    for (int j = 0; j < width; j++) {
         for (int i = length - 1, a = 0; i >= 0; i--, a++) {
             turned_matrix_clockwise(j, a) = this->operator()(i, j);
         }
+    }
     return turned_matrix_clockwise;
 }
 
@@ -132,6 +139,7 @@ Matrix Matrix::transpose() const {
     return transposedMatrix;
 }
 
+// Static Methods
 double Matrix::CalcFrobeniusNorm(const Matrix& matrix) {
     double sumOfSquares = 0.0;
     for (int rowIndex = 0; rowIndex < matrix.length; ++rowIndex) {
@@ -142,6 +150,7 @@ double Matrix::CalcFrobeniusNorm(const Matrix& matrix) {
     return std::sqrt(sumOfSquares);
 }
 
+// Friend and Non-Member Operators
 Matrix operator+(const Matrix& matrix1, const Matrix& matrix2) {
     return Matrix(matrix1) += matrix2;
 }
